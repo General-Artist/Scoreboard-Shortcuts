@@ -2,7 +2,6 @@
     "replace":false,
     "values":
     [
-        "scoreboard_shortcuts:load",
-        "scoreboard_shortcuts:schedule"
+        "scoreboard_shortcuts:load"
     ]
 }
