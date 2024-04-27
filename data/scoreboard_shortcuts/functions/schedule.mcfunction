@@ -1,4 +1,5 @@
 schedule function scoreboard_shortcuts:schedule 4t
+scoreboard players enable @a sb_Clear
 scoreboard players enable @a sb_AnimalsBred
 scoreboard players enable @a sb_Aviate
 scoreboard players enable @a sb_BreakAxe
@@ -638,3 +639,5 @@ execute as @a[scores={sb_VillagerTrade=1..}] run function scoreboard_shortcuts:t
 execute as @a[scores={sb_VillagerTrade=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Walk=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Walk=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_Clear=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_Clear=..-1}] run function scoreboard_shortcuts:trigger
