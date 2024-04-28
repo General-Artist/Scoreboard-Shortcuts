@@ -38,7 +38,7 @@ execute if score @s sb_CraftBeacon matches 1.. run scoreboard objectives setdisp
 scoreboard players set @s sb_CraftBeacon 0
 execute if score @s sb_CraftConduit matches 1.. run scoreboard objectives setdisplay sidebar ts_CraftConduit
 scoreboard players set @s sb_CraftConduit 0
-execute if score @s sb_CraftEndCrystal matches 1.. run scoreboard objectives setdisplay sidebar ts_CraftEndCrystal
+execute if score @s sb_CraftEndCrystal matches 1.. run scoreboard objectives setdisplay sidebar ts_CraftEndCryst
 scoreboard players set @s sb_CraftEndCrystal 0
 execute if score @s sb_Crafts matches 1.. run scoreboard objectives setdisplay sidebar ts_Crafts
 scoreboard players set @s sb_Crafts 0
