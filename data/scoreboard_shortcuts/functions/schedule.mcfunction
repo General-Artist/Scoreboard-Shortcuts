@@ -213,6 +213,7 @@ scoreboard players enable @a sb_UseTrident
 scoreboard players enable @a sb_UseWatrBucket
 scoreboard players enable @a sb_VillagerTrade
 scoreboard players enable @a sb_Walk
+scoreboard players enable @a sb_KillArmadillo
 execute as @a[scores={sb_AnimalsBred=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_AnimalsBred=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Aviate=1..}] run function scoreboard_shortcuts:trigger
@@ -641,3 +642,5 @@ execute as @a[scores={sb_Walk=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Walk=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Clear=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Clear=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillArmadillo=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillArmadillo=..-1}] run function scoreboard_shortcuts:trigger

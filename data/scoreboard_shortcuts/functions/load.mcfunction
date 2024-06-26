@@ -211,4 +211,5 @@ scoreboard objectives add sb_UseTrident trigger
 scoreboard objectives add sb_UseWatrBucket trigger
 scoreboard objectives add sb_VillagerTrade trigger
 scoreboard objectives add sb_Walk trigger
+scoreboard objectives add sb_KillArmadillo trigger
 scoreboard objectives add sb_Clear trigger

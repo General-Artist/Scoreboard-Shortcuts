@@ -424,5 +424,7 @@ execute if score @s sb_VillagerTrade matches 1.. run scoreboard objectives setdi
 scoreboard players set @s sb_VillagerTrade 0
 execute if score @s sb_Walk matches 1.. run scoreboard objectives setdisplay sidebar ts_Walk
 scoreboard players set @s sb_Walk 0
+execute if score @s sb_KillArmadillo matches 1.. run scoreboard objectives setdisplay sidebar ts_KillArmadillo
+scoreboard players set @s sb_KillArmadillo 0
 execute if score @s sb_Clear matches 1.. run scoreboard objectives setdisplay sidebar 
 scoreboard players set @s sb_Clear 0
