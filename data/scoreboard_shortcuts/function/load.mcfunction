@@ -1,4 +1,4 @@
-scoreboard objectives add sb_AnimalsBred trigger 
+scoreboard objectives add sb_AnimalsBred trigger
 scoreboard objectives add sb_Aviate trigger
 scoreboard objectives add sb_BreakAxe trigger
 scoreboard objectives add sb_BreakBow trigger
