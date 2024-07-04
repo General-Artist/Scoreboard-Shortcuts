@@ -426,5 +426,13 @@ execute if score @s sb_Walk matches 1.. run scoreboard objectives setdisplay sid
 scoreboard players set @s sb_Walk 0
 execute if score @s sb_KillArmadillo matches 1.. run scoreboard objectives setdisplay sidebar ts_KillArmadillo
 scoreboard players set @s sb_KillArmadillo 0
+execute if score @s sb_KillBreeze matches 1.. run scoreboard objectives setdisplay sidebar ts_KillBreeze
+scoreboard players set @s sb_KillBreeze 0
+execute if score @s sb_KillBogged matches 1.. run scoreboard objectives setdisplay sidebar ts_KillBogged
+scoreboard players set @s sb_KillBogged 0
+execute if score @s sb_DthBreeze matches 1.. run scoreboard objectives setdisplay sidebar ts_DthBreeze
+scoreboard players set @s sb_DthBreeze 0
+execute if score @s sb_DthBogged matches 1.. run scoreboard objectives setdisplay sidebar ts_DthBogged
+scoreboard players set @s sb_DthBogged 0
 execute if score @s sb_Clear matches 1.. run scoreboard objectives setdisplay sidebar 
 scoreboard players set @s sb_Clear 0

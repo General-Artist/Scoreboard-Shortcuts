@@ -214,6 +214,10 @@ scoreboard players enable @a sb_UseWatrBucket
 scoreboard players enable @a sb_VillagerTrade
 scoreboard players enable @a sb_Walk
 scoreboard players enable @a sb_KillArmadillo
+scoreboard players enable @a sb_KillBreeze
+scoreboard players enable @a sb_KillBogged
+scoreboard players enable @a sb_DthBreeze
+scoreboard players enable @a sb_DthBogged
 execute as @a[scores={sb_AnimalsBred=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_AnimalsBred=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Aviate=1..}] run function scoreboard_shortcuts:trigger
@@ -644,3 +648,11 @@ execute as @a[scores={sb_Clear=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Clear=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_KillArmadillo=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_KillArmadillo=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_DthBreeze=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_DthBreeze=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_DthBogged=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillDthBogged=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillBreeze=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillBreeze=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillBogged=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillBogged=..-1}] run function scoreboard_shortcuts:trigger
