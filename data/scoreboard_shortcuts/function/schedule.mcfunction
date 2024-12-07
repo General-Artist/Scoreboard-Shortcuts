@@ -218,6 +218,8 @@ scoreboard players enable @a sb_KillBreeze
 scoreboard players enable @a sb_KillBogged
 scoreboard players enable @a sb_DthBreeze
 scoreboard players enable @a sb_DthBogged
+scoreboard players enable @a sb_DthCreaking
+scoreboard players enable @a sb_KillCreaking
 execute as @a[scores={sb_AnimalsBred=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_AnimalsBred=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Aviate=1..}] run function scoreboard_shortcuts:trigger
@@ -656,3 +658,7 @@ execute as @a[scores={sb_KillBreeze=1..}] run function scoreboard_shortcuts:trig
 execute as @a[scores={sb_KillBreeze=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_KillBogged=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_KillBogged=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillCreaking=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillCreaking=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_DthCreaking=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_DthCreaking=..-1}] run function scoreboard_shortcuts:trigger
