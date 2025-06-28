@@ -438,5 +438,11 @@ execute if score @s sb_DthCreaking matches 1.. run scoreboard objectives setdisp
 scoreboard players set @s sb_DthCreaking 0
 execute if score @s sb_KillCreaking matches 1.. run scoreboard objectives setdisplay sidebar ts_KillCreaking
 scoreboard players set @s sb_KillCreaking 0
+execute if score @s sb_KillHGhast matches 1.. run scoreboard objectives setdisplay sidebar ts_KillHGhast
+scoreboard players set @s sb_KillHGhast 0
+execute if score @s sb_HGhastRide matches 1.. run scoreboard objectives setdisplay sidebar ts_HGhastRide
+scoreboard players set @s sb_HGhastRide 0
+execute if score @s sb_MansionPoints matches 1.. run scoreboard objectives setdisplay sidebar ts_mansionPoints
+scoreboard players set @s sb_MansionPoints 0
 execute if score @s sb_Clear matches 1.. run scoreboard objectives setdisplay sidebar 
 scoreboard players set @s sb_Clear 0

@@ -220,6 +220,9 @@ scoreboard players enable @a sb_DthBreeze
 scoreboard players enable @a sb_DthBogged
 scoreboard players enable @a sb_DthCreaking
 scoreboard players enable @a sb_KillCreaking
+scoreboard players enable @a sb_KillHGhast
+scoreboard players enable @a sb_HGhastRide  
+scoreboard players enable @a sb_MansionPoints
 execute as @a[scores={sb_AnimalsBred=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_AnimalsBred=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_Aviate=1..}] run function scoreboard_shortcuts:trigger
@@ -662,3 +665,9 @@ execute as @a[scores={sb_KillCreaking=1..}] run function scoreboard_shortcuts:tr
 execute as @a[scores={sb_KillCreaking=..-1}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_DthCreaking=1..}] run function scoreboard_shortcuts:trigger
 execute as @a[scores={sb_DthCreaking=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillHGhast=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_KillHGhast=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_HGhastRide=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_HGhastRide=..-1}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_MansionPoints=1..}] run function scoreboard_shortcuts:trigger
+execute as @a[scores={sb_MansionPoints=..-1}] run function scoreboard_shortcuts:trigger

@@ -218,4 +218,7 @@ scoreboard objectives add sb_DthBreeze trigger
 scoreboard objectives add sb_DthBogged trigger
 scoreboard objectives add sb_KillCreaking trigger
 scoreboard objectives add sb_DthCreaking trigger
+scoreboard objectives add sb_KillHGhast trigger
+scoreboard objectives add sb_HGhastRide trigger
+scoreboard objectives add sb_MansionPoints trigger
 scoreboard objectives add sb_Clear trigger
